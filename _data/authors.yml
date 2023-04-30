@@ -8,16 +8,19 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    **Junho Lee**
-    Computational Chemistry & AI research blog. 
+    **이준호**
 
+    계산화학, 구조생물학 인공지능 개발/연구 노트 블로그입니다. 😎
+
+    Please check my [CV](/public/CV.pdf) to find out for more about me !
+    
   # This photo will be used in the about section
   picture:
-    path:            /assets/img/profile/profile.jpg
+    path:            /assets/img/author.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            /assets/img/profile/profile.jpg
-      2x:            /assets/img/profile/profile.jpg
+      1x:            /assets/img/author.jpg
+      2x:            /assets/img/author.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide

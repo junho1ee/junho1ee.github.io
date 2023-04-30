@@ -1,8 +1,8 @@
 {
-  "lang": "en",
-  "name": "ABC Blog",
-  "short_name": "ABC Blog",
-  "description": "블로그 테스트",
+  "lang": "ko, en",
+  "name": "Chemistry & AI Research",
+  "short_name": "Chemistry & AI Research",
+  "description": "연구기록",
   "start_url": "/?utm_source=homescreen",
   "theme_color": "rgb(25,55,71)",
   "background_color": "#fff",

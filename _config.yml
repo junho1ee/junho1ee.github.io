@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+url:                   https://junho1ee.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -17,21 +17,20 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko, en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 ABC Blog
+title:                 Chemistry & AI Research
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
- 블로그 테스트
-
+  연구기록
 # A shorter description for the sidebar.
-tagline:               차차 업데이트할 예정입니다. :)
+tagline:               연구기록
 
 # A list of keywords for your blog
-keywords:              ["blog", "hydejack", "hyde"]
+keywords:              ["chemistry", "ai", "research", "blog"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -42,16 +41,16 @@ logo:                  /assets/img/logo.png
 author:
   # Used by `jekyll-feed`:
   name:                Junho Lee
-  email:               <awer2072@gmail.com>
+  email:               awer2072@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Think
+    url:               /think/
+  - title:             Etc
+    url:               /etc/
   - title:             About
     url:               /about/
 
@@ -66,7 +65,7 @@ legal:
     url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved.
+copyright:             © 2023. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -421,15 +420,11 @@ jekyll_compose:
         - title: Project Link
           url: https://example.com
 
-
-
-# Tipue Search
-# ---------------------------------------------------------------------------------------
 tipue_search:
-    include:
-        pages: false
-        collections: []
-    exclude:
-        files: [search.html, index.html, tags.html]
-        categories: []
-        tags: []
+  include:
+    pages: true
+    collections: []
+  exclude:
+    files: [search.html, index.html, tags.html]
+    categories: []
+    tags: []
