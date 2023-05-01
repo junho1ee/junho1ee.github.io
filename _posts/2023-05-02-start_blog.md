@@ -3,8 +3,6 @@ layout: post
 title: "블로그 시작"
 subtitle: "블로그 시작"
 categories: etc
-tags: blog
-sitemap: false
 ---
 
 ## 블로그시작
