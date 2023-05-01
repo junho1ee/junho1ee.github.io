@@ -420,6 +420,9 @@ jekyll_compose:
         - title: Project Link
           url: https://example.com
 
+favicon: /assets/icons/favicon.ico
+apple_toch_icon: /assets/icons/apple-touch-icon.png
+
 tipue_search:
   include:
     pages: true
