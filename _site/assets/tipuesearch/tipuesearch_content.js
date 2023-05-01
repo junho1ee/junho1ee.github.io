@@ -1,8 +1,8 @@
 var tipuesearch = {"pages": [{
     "title": "블로그시작",
-    "text": "블로그 시작 Ruby jeckyll hydjack theme 블로그 개설 사용법 익히는 중입니다.",
-    "tags": "",
-    "url": "/2023-05-02-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%8B%9C%EC%9E%91/"
+    "text": "Ruby jeckyll hydjack theme 블로그 개설 사용법 익히는 중입니다.",
+    "tags": "blog etc",
+    "url": "/etc/2023-05-02-%EB%B8%94%EB%A1%9C%EA%B7%B8%EC%8B%9C%EC%9E%91/"
   },{
     "title": "",
     "text": "",
